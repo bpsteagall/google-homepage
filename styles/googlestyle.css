@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none; 
+	font-family: Arial; 
+	color: black;
+	margin-top: 20px;
+	margin-left: 20px; 
+	margin-right: 0; 
+}
+li{
+	float: left;
+	margin: 20px;
+	list-style-type: none; 
+}
+a:hover{
+	text-decoration-line: underline;
+}
+button{
+	border: none;
+	border-radius: 3px;
+	background-color: #f8f8f8;
+	height: 34px;
+	width: 134px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #757575;
+}
+button:hover{
+	border: outset gray thin;
+	color: black; 
+}
+ img{
+	margin-top: 0; 
+	padding-top: 0;
+}
+#logo{
+	display: block;
+	text-align: center;
+	padding-top: 218px; 
+}
+#searchBar{
+	display: block;
+	text-align: center;
+}
+#searchBar input{
+	height: 34px;
+	width: 403px;
+	margin-top: 20px;
+	border: outset gray thin;
+}
+#searchButtons{ 
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+#footer{
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	background-color: #f8f8f8; 
+	border-top: solid gray thin;
+	width: 100%; 
+	height: 53px;
+}
+#footer a{
+	color: gray;
+}
+.rightAlign{
+	display: inline-block;
+	float: right;
+}
+.rightAlign img{
+	margin-top: -6px;
+}
+.leftAlign{
+	display: inline-block;
+	float: left;
+}
+.rightAlignFooter{
+	display: inline-block;
+	float: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+#voiceSearch{
+	display: block;
+	position: relative;
+	bottom: 32px;
+	left: 60%;
+}
+#content{
+	height: 40vh; 
+}
+#signIn{
+ 	font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #3572f6;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
